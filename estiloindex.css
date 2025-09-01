@@ -1,0 +1,95 @@
+
+
+*{
+    margin: 15px;
+    padding: center;
+    
+}
+        
+body{
+
+    background-color: white;
+    color: #0307fa;
+    line-height: 2;
+    padding: 20px;
+    max-width: 1200px;
+    /*deixar margem no automatico caso mude o tamanho da pagina*/
+    margin: 0 auto; 
+}        
+        /* Cabeçalho */
+#header{
+
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #3498db ;
+
+    } 
+        
+#header h1, ul, h3{
+
+    color: #3b4d5f;
+    margin-bottom: 15px;
+    
+}
+
+        
+        /* Menu */
+#menu {
+    margin-top: 0px;
+}
+        
+#menu a {
+    color: #3498db;
+    padding: 10px 30px; /* Tamanho da borda HOME*/
+    border-radius: 30px; /* deixa borda arredondada*/
+}
+            /* mudar de cor quando passar o mouse */
+#menu a:hover {
+    background-color: #3498db;
+    color: white;
+}
+        
+        /* criando cada post  */
+.post01, .post02, .post03, .postContato {
+    padding: center;
+    background-color: rgb(181, 213, 255);
+    padding: 0px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 1125px;
+    margin-bottom: 20px;
+    
+    }
+
+    /* mudando a cor do post para preto*/
+.post01 p, .post02 p, .post03 p, .postContato p {
+
+    margin-bottom: 20px;
+    color: #000000;    
+
+}
+        
+.post01 h1, .post02 h1, .post03 h1, .postContato h1 {
+
+    color: #3b4d5f;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+        
+        /* Botões */
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+        
+button:hover {
+    /*fazer botão mudar de cor*/
+    background-color: #2980b9;
+}
+        
